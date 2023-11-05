@@ -19,7 +19,7 @@ const NavLink = (props) => {
       <div className={`${handleStyle()} h-full flex items-center`}>
         <span
           onClick={() => setIsSelected()}
-          className={`cursor-pointer pb-1 `}
+          className={`cursor-pointer xs:text-xs sm:text-xs md:text-xs lg:text-xs xl:text-sm`}
         >
           {link}
         </span>

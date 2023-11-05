@@ -1,10 +1,17 @@
 span.brand {
   position: absolute;
-  bottom: -14px;
+  bottom: -8px;
   right: 2px;
   color: white;
   font-family: "Unbounded", sans-serif;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: -2px;
+}
+
+@media screen and (min-width: 1400px) {
+  span.brand{
+    font-size: 25px;
+    bottom: -10px;
+  }
 }
