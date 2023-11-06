@@ -47,7 +47,7 @@ const Navigation = () => {
 
             {/* small screen */}
             <div className="md:hidden lg:hidden xl:hidden grid grid-cols-3 mt-5">
-                <div>
+                <div className="cursor-pointer">
                     <CgMenu
                         size={"25px"}
                         onClick={() => {
