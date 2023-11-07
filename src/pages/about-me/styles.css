@@ -1,0 +1,13 @@
+span.firstname {
+  font-size: 150px;
+  font-family: "Unbounded", sans-serif;
+  letter-spacing: -15px;
+  font-weight: 200;
+}
+
+span.lastname {
+  font-size: 150px;
+  font-family: "Unbounded", sans-serif;
+  letter-spacing: -10px;
+  font-weight: 400;
+}
