@@ -3,6 +3,10 @@ import { BsChevronDown } from "react-icons/bs";
 import "./styles.css";
 
 const AboutMe = () => {
+  const responsivePosition = () => {
+    return "md:top-10";
+  };
+
   return (
     <div>
       <div className="grid grid-cols-2">
@@ -27,13 +31,13 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center mt-8 relative">
-        <span className="text-lg">Hello I am</span>
+      <div className="flex flex-col items-center justify-center mt-8 ">
+        <span className="text-lg mb-12">Hello I am</span>
         <div className="flex items-center justify-center">
-          <span className="firstname">JOHN PAUL</span>
+          <span className={`firstname `}>JOHN PAUL</span>
         </div>
-        <div className="flex items-center justify-center absolute top-40">
-          <span className="lastname">CERVANTES</span>
+        <div className="flex items-center justify-center">
+          <span className={`lastname`}>CERVANTES</span>
         </div>
       </div>
     </div>

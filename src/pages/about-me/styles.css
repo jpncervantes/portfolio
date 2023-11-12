@@ -3,6 +3,7 @@ span.firstname {
   font-family: "Unbounded", sans-serif;
   letter-spacing: -15px;
   font-weight: 200;
+  line-height: 130px;
 }
 
 span.lastname {
@@ -10,4 +11,74 @@ span.lastname {
   font-family: "Unbounded", sans-serif;
   letter-spacing: -10px;
   font-weight: 400;
+  line-height: 130px;
+}
+
+@media screen and (max-width: 1279px) {
+  span.firstname {
+    font-size: 130px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -15px;
+    font-weight: 200;
+  }
+
+  span.lastname {
+    font-size: 130px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -10px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 1023px) {
+  span.firstname {
+    font-size: 100px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -10px;
+    font-weight: 200;
+    line-height: 100px;
+  }
+
+  span.lastname {
+    font-size: 100px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -7px;
+    font-weight: 400;
+    line-height: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  span.firstname {
+    font-size: 90px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -13px;
+    font-weight: 200;
+    line-height: 100px;
+  }
+
+  span.lastname {
+    font-size: 90px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -8px;
+    font-weight: 400;
+    line-height: 100px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  span.firstname {
+    font-size: 50px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -3px;
+    font-weight: 200;
+    line-height: 50px;
+  }
+
+  span.lastname {
+    font-size: 50px;
+    font-family: "Unbounded", sans-serif;
+    letter-spacing: -4px;
+    font-weight: 400;
+    line-height: 50px;
+  }
 }
