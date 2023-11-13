@@ -16,3 +16,12 @@ div.bio {
   font-weight: 300;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 1279px) {
+  span.title {
+    font-family: "Unbounded", serif;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 90px;
+  }
+}
