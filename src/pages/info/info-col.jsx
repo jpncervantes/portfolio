@@ -3,10 +3,10 @@ import "./styles.css";
 import { BsFillTelephoneFill, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
-const InfoRow = () => {
+const InfoCol = () => {
     return (
-        <div className="grid grid-cols-2 pl-16 pr-16 w-full" style={{ fontFamily: "Poppins" }}>
-            <div className="flex justify-between flex-col pt-20 pb-20">
+        <div className="flex flex-col pl-16 pr-16 w-full" style={{ fontFamily: "Poppins" }}>
+            <div className="flex justify-between flex-col pb-20">
                 <div>
                     <span className="title">About Me</span>
                     <div className="xl:w-[450px] lg:w-[400px] bio lg:text-xs xl:text-sm">
@@ -15,7 +15,7 @@ const InfoRow = () => {
                     </div>
                 </div>
                 <div className="flex flex-col xl:space-x-6 xl:flex-row">
-                    <span className="flex items-center">
+                    <span className="flex items-center mt-20">
                         <BsFillTelephoneFill /> <span className="ml-2 text-sm"> 09183252038</span>
                     </span>
                     <span className="flex items-center">
@@ -28,7 +28,7 @@ const InfoRow = () => {
                     </span>
                 </div>
             </div>
-            <div className="pr-12 pl-32 lg:pr-0">
+            <div className="lg:pr-0">
                 <div className="border-b border-t border-black flex flex-col pt-12 pb-12">
                     <span className="heading">Education</span>
                     <div className="flex justify-between text-lg mt-4">
@@ -59,4 +59,4 @@ const InfoRow = () => {
     );
 };
 
-export default InfoRow;
+export default InfoCol;
