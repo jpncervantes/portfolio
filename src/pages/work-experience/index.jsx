@@ -29,11 +29,11 @@ const WorkExperience = () => {
     };
     return (
         <div className="flex flex-row w-100">
-            <div className="bg-black ml-40 w-[30%] text-white flex flex-col justify-end items-end pl-4 pr-4 pt-6">
-                <span style={{ fontFamily: "Unbounded", lineHeight: "30px" }} className="text-[30px]">
+            <div className="bg-black lg:ml-40 w-[30%] text-white flex flex-col justify-end items-end pl-4 pr-4 pt-6">
+                <span style={{ fontFamily: "Unbounded", lineHeight: "30px" }} className="sm:text-[20px] md:text-[25px] lg:text-[30px]">
                     Work
                 </span>
-                <span style={{ fontFamily: "Unbounded", lineHeight: "30px" }} className="text-[30px]">
+                <span style={{ fontFamily: "Unbounded", lineHeight: "30px" }} className="sm:text-[20px] md:text-[25px] lg:text-[30px]">
                     Experiences
                 </span>
                 <div className="border-r border-white flex flex-col items-end mt-11 mb-8 pb-8 space-y-4" style={{ fontFamily: "Poppins" }}>
@@ -45,20 +45,20 @@ const WorkExperience = () => {
                         Hooli Software{" "}
                     </span>
                     <span
-                        className={`text-xs pr-7 cursor-pointer ${isSelected === "SaaS" && "border-white border-r-4 pr-4"}`}
+                        className={`text-xs pr-4 cursor-pointer ${isSelected === "SaaS" && "border-white border-r-4 pr-4"}`}
                         onClick={() => setisSelected("SaaS")}
                     >
                         Saas Console
                     </span>
 
                     <span
-                        className={`text-xs pr-7 cursor-pointer ${isSelected === "Carbo" && "border-white border-r-4 pr-4"}`}
+                        className={`text-xs pr-4 cursor-pointer ${isSelected === "Carbo" && "border-white border-r-4 pr-4"}`}
                         onClick={() => setisSelected("Carbo")}
                     >
                         Carbonetes
                     </span>
                     <span
-                        className={`mt-24 cursor-pointer pr-4 ${isSelected === "Ero" && "border-white border-r-4 pr-4"}`}
+                        className={`mt-24 cursor-pointer pr-4 ${isSelected === "Ero" && "border-white border-r-4 pr-4"} text-end`}
                         onClick={() => setisSelected("Ero")}
                     >
                         Erovoutika Robotics and Automation
@@ -70,7 +70,7 @@ const WorkExperience = () => {
                         PLDT Malolos
                     </span>
                     <span
-                        className={`mt-24 cursor-pointer pr-4  ${isSelected === "Complex" && "border-white border-r-4 pr-4"}`}
+                        className={`mt-24 cursor-pointer pr-4  ${isSelected === "Complex" && "border-white border-r-4 pr-4"} text-end`}
                         onClick={() => setisSelected("Complex")}
                     >
                         Malolos Sports Complex

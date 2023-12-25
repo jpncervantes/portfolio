@@ -5,11 +5,13 @@ import AboutMe from "./pages/about-me/AboutMe";
 import InfoRow from "./pages/info";
 import InfoCol from "./pages/info/info-col";
 import WorkExperience from "./pages/work-experience";
+import UiWorks from "./pages/ui-works";
+import ArtWorks from "./pages/art-works";
 
 const Main = () => {
     return (
         <div>
-            <div className="sticky top-0 bg-gradient-to-b from-white from-60% to-transparent h-[150px] pl-10 pr-10 pt-2">
+            <div className="sticky top-0 bg-gradient-to-b from-white from-60% to-transparent h-[150px] pl-10 pr-10 pt-2 z-10">
                 <Navbar />
             </div>
             <div className="flex ml-50 flex-col pl-10 pr-10 w-full">
@@ -26,6 +28,12 @@ const Main = () => {
             </div>
             <div className="mt-96">
                 <WorkExperience />
+            </div>
+            <div className="mt-96">
+                <UiWorks />
+            </div>
+            <div className="mt-[600px]">
+                <ArtWorks />
             </div>
         </div>
     );

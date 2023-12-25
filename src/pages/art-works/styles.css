@@ -1,0 +1,53 @@
+td {
+    border: 4px solid black;
+}
+
+div.bg-cell {
+    &.title {
+        background-image: url("../../assets/bird.png");
+        background-size: 100%;
+        background-position: center;
+        transition: background-size 800ms ease-in-out, transition-delay 0s 2s;
+    }
+    &.title:hover {
+        background-size: 105%;
+    }
+
+    &.render2 {
+        background-image: url("../../assets/road render 4 post.png");
+        background-size: 100%;
+        background-position: center;
+        transition: background-size 800ms ease-in-out, transition-delay 0s 2s;
+    }
+    &.render2:hover {
+        background-size: 105%;
+    }
+
+    &.render3 {
+        background-image: url("../../assets/road.png");
+        background-size: 100%;
+        background-position: bottom;
+        transition: background-size 800ms ease-in-out, transition-delay 0s 2s;
+    }
+
+    &.render3:hover {
+        background-size: 105%;
+    }
+
+    &.render4 {
+        background-image: url("../../assets/chocolate hills.png");
+        background-size: 100%;
+        background-position: bottom;
+        transition: background-size 800ms ease-in-out, transition-delay 0s 2s;
+    }
+    &.render4:hover {
+        background-size: 104%;
+    }
+}
+
+.title-text {
+    font-family: "Unbounded";
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+}

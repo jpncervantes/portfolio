@@ -5,7 +5,7 @@ import Subtitle from "./subtitle";
 const ExperienceTitle = (props) => {
     return (
         <div>
-            <span className="title">{props.children}</span>
+            <span className="title ">{props.children}</span>
         </div>
     );
 };

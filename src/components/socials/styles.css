@@ -1,0 +1,13 @@
+div.badge-container {
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+div.arrow-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+div.badge-container:hover .arrow-icon {
+    transform: translateY(-3px);
+}
