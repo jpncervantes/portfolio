@@ -7,6 +7,7 @@ import InfoCol from "./pages/info/info-col";
 import WorkExperience from "./pages/work-experience";
 import UiWorks from "./pages/ui-works";
 import ArtWorks from "./pages/art-works";
+import Footer from "./components/footer";
 
 const Main = () => {
     return (
@@ -32,8 +33,11 @@ const Main = () => {
             <div className="mt-96">
                 <UiWorks />
             </div>
-            <div className="mt-[600px]">
+            <div className="mt-[500px]">
                 <ArtWorks />
+            </div>
+            <div className="mt-80">
+                <Footer />
             </div>
         </div>
     );

@@ -1,0 +1,10 @@
+div.footer {
+    background-color: black;
+    height: 150px;
+}
+
+span.thanks {
+    font-family: "Unbounded";
+    color: white;
+    font-weight: 200;
+}

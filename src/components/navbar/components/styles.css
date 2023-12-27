@@ -3,3 +3,11 @@ span.sidebar {
     font-weight: 400;
     font-size: 30px;
 }
+
+div.unselected-nav {
+    transition: 0.1s ease-in-out;
+}
+
+div.unselected-nav:hover {
+    border-bottom: 2px solid rgb(149, 149, 149);
+}
