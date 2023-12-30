@@ -15,11 +15,12 @@ const Navigation = () => {
     return (
         <div>
             <div className="w-100 grid-cols-2 gap-1 mt-5 hidden md:grid lg:grid xl:grid">
-                <div className="grid grid-cols-4 gap-1 border border-solid border-[#1F1F1F] rounded-full lg:mr-44 h-[35px]">
+                <div className="grid grid-cols-5 gap-1 border border-solid border-[#1F1F1F] rounded-full lg:mr-44 h-[35px]">
                     <Brand />
                     <NavLink link={"About Me"} isSelected={isSelected} setIsSelected={() => setIsSelected("About Me")} />
                     <NavLink link={"Experiences"} isSelected={isSelected} setIsSelected={() => setIsSelected("Experiences")} />
                     <NavLink link={"Work"} isSelected={isSelected} setIsSelected={() => setIsSelected("Work")} />
+                    <NavLink link={"Art"} isSelected={isSelected} setIsSelected={() => setIsSelected("Art")} />
                 </div>
                 <div className="h-[40px] flex space-x-4 sm:space-x-1 ml-10">
                     <div className="w-[30%]">

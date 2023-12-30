@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <div className="footer w-100 flex flex-col justify-center pl-12 pr-12">
+        <div className="footer w-100 flex flex-col justify-center pl-12 pr-12 pt-8">
             <span className="thanks text-6xl">thanks!</span>
             <div className="flex flex-col lg:flex-row mt-2 lg:items-center ">
                 <div className="barline w-full lg:w-[75%] bg-white h-[2px] "></div>

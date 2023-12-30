@@ -14,13 +14,30 @@ const NavLink = (props) => {
         } else return "unselected-nav";
     };
 
+    const getNavLink = () => {
+        switch (link) {
+            case "About Me":
+                return "#information";
+            case "Experiences":
+                return "#workexp";
+            case "Work":
+                return "#uiworks";
+            case "Art":
+                return "#artworks";
+            default:
+                return "";
+        }
+    };
+
     return (
         <div className={`flex items-center justify-center`}>
-            <div className={`${handleStyle()}  h-full flex items-center`}>
-                <span onClick={() => setIsSelected()} className={` cursor-pointer xs:text-xs sm:text-xs md:text-xs lg:text-xs xl:text-sm`}>
-                    {link}
-                </span>
-            </div>
+            <a href={getNavLink()} className="flex justify-center h-full">
+                <div className={`${handleStyle()}  h-full flex items-center`}>
+                    <span onClick={() => setIsSelected()} className={` cursor-pointer xs:text-xs sm:text-xs md:text-xs lg:text-xs xl:text-sm`}>
+                        {link}
+                    </span>
+                </div>
+            </a>
         </div>
     );
 };

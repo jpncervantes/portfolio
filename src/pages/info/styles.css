@@ -1,27 +1,28 @@
-span.title {
-  font-family: "Unbounded", serif;
-  font-weight: 300;
-  font-size: 90px;
-  line-height: 90px;
+span.info-title {
+    font-family: "Unbounded", serif;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 90px;
 }
 
 span.heading {
-  font-family: "Poppins";
-  font-size: 30px;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 500;
 }
 
 div.bio {
-  line-height: 17px;
-  font-family: "Poppins";
-  font-weight: 300;
-  margin-top: 10px;
+    line-height: 17px;
+    font-family: "Poppins";
+    font-weight: 300;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1279px) {
-  span.title {
-    font-family: "Unbounded", serif;
-    font-weight: 300;
-    font-size: 60px;
-    line-height: 90px;
-  }
+    span.info-title {
+        font-family: "Unbounded", serif;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 90px;
+    }
 }

@@ -8,7 +8,8 @@ import WorkExperience from "./pages/work-experience";
 import UiWorks from "./pages/ui-works";
 import ArtWorks from "./pages/art-works";
 import Footer from "./components/footer";
-
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { ScrollSmoother } from "gsap/dist/ScrollSmoother";
 const Main = () => {
     return (
         <div>
@@ -17,24 +18,30 @@ const Main = () => {
             </div>
             <div className="flex ml-50 flex-col pl-10 pr-10 w-full">
                 {/* <div className="h-[1000px] bg-slate-500 ">test</div> */}
-                <div className="mb-80 md:mb-96">
+                <div className="mb-0 md:mb-96">
                     <AboutMe />
                 </div>
-                <div className="hidden lg:flex w-full">
+                <div className="hidden lg:flex w-full pt-32 pb-20" id="information">
                     <InfoRow />
                 </div>
-                <div className="flex lg:hidden">
+                <div className="flex lg:hidden pt-72" id="information">
                     <InfoCol />
                 </div>
             </div>
-            <div className="mt-96">
-                <WorkExperience />
+            <div className="pt-72">
+                <div className="w-full pt-36" id="workexp">
+                    <WorkExperience />
+                </div>
             </div>
-            <div className="mt-96">
-                <UiWorks />
+            <div className="pt-60">
+                <div className="w-full pt-36" id="uiworks">
+                    <UiWorks />
+                </div>
             </div>
-            <div className="mt-[500px]">
-                <ArtWorks />
+            <div className="mt-[400px]" id="artworks">
+                <div className="w-full pt-36" id="artworks">
+                    <ArtWorks />
+                </div>
             </div>
             <div className="mt-80">
                 <Footer />
