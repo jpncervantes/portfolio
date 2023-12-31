@@ -18,7 +18,7 @@ const Main = () => {
             </div>
             <div className="flex ml-50 flex-col pl-10 pr-10 w-full">
                 {/* <div className="h-[1000px] bg-slate-500 ">test</div> */}
-                <div className="mb-0 md:mb-96">
+                <div className="mb-0 md:mb-96" id="intro">
                     <AboutMe />
                 </div>
                 <div className="hidden lg:flex w-full pt-32 pb-20" id="information">

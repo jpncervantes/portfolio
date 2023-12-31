@@ -16,7 +16,9 @@ const Navigation = () => {
         <div>
             <div className="w-100 grid-cols-2 gap-1 mt-5 hidden md:grid lg:grid xl:grid">
                 <div className="grid grid-cols-5 gap-1 border border-solid border-[#1F1F1F] rounded-full lg:mr-44 h-[35px]">
-                    <Brand />
+                    <a href="#intro">
+                        <Brand />
+                    </a>
                     <NavLink link={"About Me"} isSelected={isSelected} setIsSelected={() => setIsSelected("About Me")} />
                     <NavLink link={"Experiences"} isSelected={isSelected} setIsSelected={() => setIsSelected("Experiences")} />
                     <NavLink link={"Work"} isSelected={isSelected} setIsSelected={() => setIsSelected("Work")} />
@@ -33,7 +35,14 @@ const Navigation = () => {
                         <SocialBadge social={"GitHub"} />
                     </div>
                     <div className="w-[10%] flex">
-                        <CVDownload />
+                        <a
+                            href="https://drive.google.com/file/d/10eqPPN9dza1ZoHavyxhtGzku9SrxTG6Y/view?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="w-full"
+                        >
+                            <CVDownload />
+                        </a>
                     </div>
                 </div>
             </div>
