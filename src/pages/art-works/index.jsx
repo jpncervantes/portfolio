@@ -21,7 +21,7 @@ const ArtWorks = () => {
                 scrollTrigger: {
                     trigger: ".art-card",
                     toggleActions: "play reset play reverse",
-                    markers: true,
+                    // markers: true,
                     start: "top: 90%",
                     // end: "bottom: 10%",
                 },

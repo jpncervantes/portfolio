@@ -20,7 +20,7 @@ const UiWorks = () => {
                 scrollTrigger: {
                     trigger: ".work-card",
                     toggleActions: "play reset play reverse",
-                    markers: true,
+                    // markers: true,
                     start: "top: 90%",
                     // end: "bottom: 10%",
                 },

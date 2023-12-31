@@ -20,7 +20,7 @@ const InfoRow = () => {
                 scrollTrigger: {
                     trigger: infoElement,
                     toggleActions: "play reset play reset",
-                    markers: true,
+                    // markers: true,
                     // start: "top: 90%",
                     // end: "bottom: 10%",
                 },
@@ -37,7 +37,7 @@ const InfoRow = () => {
                 scrollTrigger: {
                     trigger: infoElement,
                     toggleActions: "play reset play reset",
-                    markers: true,
+                    // markers: true,
                 },
                 ease: "linear",
                 stagger: 0.2,

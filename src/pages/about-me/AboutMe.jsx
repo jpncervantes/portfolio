@@ -22,7 +22,7 @@ const AboutMe = () => {
             scrollTrigger: {
                 trigger: ".aboutme-name",
                 toggleActions: "play pause pause reverse",
-                markers: true,
+                // markers: true,
                 start: "bottom: 20%",
             },
         });
