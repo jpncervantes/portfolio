@@ -36,8 +36,11 @@ const AboutMe = () => {
             </div>
             <div className="flex items-center justify-center w-full">
                 <span className="text-center w-[750px] mt-4 text-sm">
-                    Highly skilled and adaptable Software Engineer with <b>more than 1 year </b>
-                    of experience in both front-end and back-end development. Proficient in <b>JavaScript, ReactJS, Go, PostgreSQL, and DynamoDB.</b>
+                    Highly skilled and adaptable Creative Software Engineer with <b>more than 1 year </b>
+                    of experience in both front-end and back-end development. Proficient in <b>
+                        JavaScript, ReactJS, Go, PostgreSQL, and DynamoDB,{" "}
+                    </b>{" "}
+                    <br /> with proven expertise in <b>UI/UX and Graphic Design.</b>
                 </span>
             </div>
             <Arrow />
